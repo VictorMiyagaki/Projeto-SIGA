@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laboratório de Hardware</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div align="center">
+        <p>
+            <img src="siga2.png">
+            <img src="cps.png">
+        </p>
+        <p align="left"></p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">&#127968; Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            &#127380; Matrícula
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="matricula.html"><del>Matrícula</del></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            &#128270; Consultas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="avisos.html">Avisos</a></li>
+                            <li><a class="dropdown-item" href="historicosimples.html">Histórico Simples</a></li>
+                            <li><a class="dropdown-item" href="historicograde.html">Histórico Grade</a></li>
+                            <li><a class="dropdown-item" href="historicocompleto.html">Histórico Completo</a></li>
+                            <li><a class="dropdown-item" href="horario.html">Horário</a></li>
+                            <li><a class="dropdown-item" href="notas.html">Notas </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            &#128198; Agenda
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="calendariodeprovas.html">Calendário de Provas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            &#128273; Segurança
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="trocadesenha.html">Troca de Senha</a></li>
+                            <li><a class="dropdown-item" href="trocadeemail.html">Troca de E-mail</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            &#128195; Solicitações
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="revisaodenotasefaltas.html">Revisão de Notas e Faltas</a>
+                            </li>
+                            <li><a class="dropdown-item" href="solicitacaodedocumentos.html">Solicitação de
+                                    Documentos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            &#128228; Upload
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="covid19.html">COVID-19</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            &#128218; Planos de Ensino
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="administracaogeral.html">Administração Geral <span class="badge text-bg-success">AAG</span></a></li>
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="arquiteturaeorganizacaodecomputadores.html">Arquitetura e
+                                    Organização de Computadores&nbsp;&nbsp;<span class="badge text-bg-success">IAC</span></a></li>
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="algoritmoselogicadeprogramacao.html">Algoritmos e Lógica
+                                    de Programação <span class="badge text-bg-success">IAL</span></a></li>
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="laboratoriodehardware.html">Laboratório de Hardware <span class="badge text-bg-success">IHW</span></a>
+                            </li>
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="programacaoemmicroinformatica.html">Programação em
+                                    Microinformática <span class="badge text-bg-success">ILM</span></a></li>
+                            <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="matematicadiscreta.html">Matemática Discreta <span class="badge text-bg-success">MMD</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <span class="badge text-bg-dark">VICTOR DE OLIVEIRA MIYAGAKI</span>
+            <p style="margin-left: 10px;"></p>
+            <a href="login.html"><img src="off.png" title="Sair" style="margin-left: 5px;"></a>
+        </div>
+    </nav>
+
+    <h4 align="center" style="margin-top: 10px; margin-right: 10px; font-family:monospace;"><span
+        class="badge rounded-pill text-bg-success">LABORATÓRIO DE HARDWARE</span> <span class="badge rounded-pill text-bg-success">RODRIGO</span></h4>
+<div class="margem">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-apresentacao-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-apresentacao" type="button" role="tab" aria-controls="pills-apresentacao"
+                aria-selected="true">Apresentação</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-aulas-tab" data-bs-toggle="pill" data-bs-target="#pills-aulas"
+                type="button" role="tab" aria-controls="pills-aulas" aria-selected="false">Aulas</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-avaliacoes-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-avaliacoes" type="button" role="tab" aria-controls="pills-avaliacoes"
+                aria-selected="false">Avaliações</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-extraclasse-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-extraclasse" type="button" role="tab" aria-controls="pills-extraclasse"
+                aria-selected="false">Extra-Classe</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-material-tab" data-bs-toggle="pill" data-bs-target="#pills-material"
+                type="button" role="tab" aria-controls="pills-material" aria-selected="false">Material</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-bibliografia-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-bibliografia" type="button" role="tab" aria-controls="pills-bibliografia"
+                aria-selected="false">Bibliografia</button>
+        </li>
+    </ul>
+</div>
+<div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-apresentacao" role="tabpanel"
+        aria-labelledby="pills-apresentacao-tab" tabindex="0">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <div class="container my-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Ementa</h3>
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-10">
+                                        <ul class="list-group list-group-flush" style="text-align:left">
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                <span class="badge text-bg-primary">1</span>
+                                                Teoria dos conjuntos
+                                            </li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                <span class="badge text-bg-primary">2</span>
+                                                Indução Matemática
+                                            </li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                <span class="badge text-bg-primary">3</span>
+                                                Análise Combinatória
+                                            </li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                <span class="badge text-bg-primary">4</span>
+                                                Lógica Formal
+                                            </li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                <span class="badge text-bg-secondary">5</span> Relações
+                                            </li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                <span class="badge text-bg-secondary">6</span> Funções
+                                            </li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                <span class="badge text-bg-secondary">7</span> Grafos
+                                            </li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                <span class="badge text-bg-secondary">8</span> Árvores
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container my-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Objetivo</h3>
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-10">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Compreender e aplicar os conceitos
+                                                fundamentais da
+                                                matemática para computação em situações-problema dentro do
+                                                contexto do
+                                                curso.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="container my-1">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Cargas</h3>
+                                <div class="row">
+                                    <div class="col"></div>
+                                    <div class="col-10">
+                                        <ul class="list-group list-group-flush" style="text-align:right">
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                Semanais: <span class="badge text-bg-primary">4</span></li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                Teóricas: <span class="badge text-bg-primary">3</span></li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                Práticas: <span class="badge text-bg-primary">1</span></li>
+                                            <li
+                                                class="list-group-item d-flex justify-content-between align-items-center">
+                                                Total: <span class="badge text-bg-primary">80</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-aulas" role="tabpanel" aria-labelledby="pills-aulas-tab" tabindex="0">
+        <div class="container my-1">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Aulas</h3>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col-12">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">1</span> <span
+                                            class="badge text-bg-primary">09/08/2022</span>  Recepção dos alunos
+                                        ingressantes.
+                                        Conhecimento da
+                                        turma. Apresentação do plano de ensino da disciplina.</span><span
+                                        class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">2</span> <span
+                                            class="badge text-bg-primary">13/08/2022</span>
+                                         Atividade diagnóstica.
+                                        Introdução
+                                        à lógica formal.</span><span class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-danger">3</span> <span
+                                            class="badge text-bg-danger">15/08/2022</span>
+                                         Proposições e proposições
+                                        compostas. Conectivos
+                                        lógicos. Operações lógicas básicas.</span><span
+                                        class="badge text-bg-danger">FALTA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span>
+                                        <span class="badge text-bg-primary">4</span> <span
+                                            class="badge text-bg-primary">16/08/2022</span>
+                                        
+                                        Tabela-verdade.</span><span class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">5</span> <span
+                                            class="badge text-bg-primary">20/08/2022</span>
+                                         Outros conectivos e
+                                        tabela-verdade.</span><span class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">6</span> <span
+                                            class="badge text-bg-primary">22/08/2022</span>
+                                         Tautologias e
+                                        contradições. Relações de implicação e equivalência</span><span
+                                        class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-danger">7</span> <span
+                                            class="badge text-bg-danger">23/08/2022</span>
+                                         Negação de proposições
+                                        compostas. Leis de De Morgan.</span><span
+                                        class="badge text-bg-danger">FALTA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">8</span> <span
+                                            class="badge text-bg-primary">27/08/2022</span>
+                                         Resolução de problemas
+                                        envolvendo lógica proposicional (tabela-verdade, equivalências,
+                                        negações).</span><span class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">9</span> <span
+                                            class="badge text-bg-primary">29/08/2022</span>
+                                        
+                                        Quantificadores lógicos. Negação de declarações com
+                                        quantificadores.</span><span class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">10</span> <span
+                                            class="badge text-bg-primary">30/08/2022</span>
+                                         Resolução de exercícios
+                                        envolvendo lógica proposicional (quantificadores e suas
+                                        negações).</span><span class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-danger">11</span> <span
+                                            class="badge text-bg-danger">03/09/2022</span>
+                                         Contraexemplos. Técnicas de
+                                        demonstração: Exaustão, Direta, Contraposição, Contradição..</span><span
+                                        class="badge text-bg-danger">FALTA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">12</span> <span
+                                            class="badge text-bg-primary">05/09/2022</span>
+                                         Princípio da indução
+                                        matemática.</span><span class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">13</span> <span
+                                            class="badge text-bg-primary">06/09/2022</span>
+                                         Resolução de exercícios
+                                        envolvendo técnicas de demonstração.</span><span
+                                        class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">14</span> <span
+                                            class="badge text-bg-primary">10/09/2022</span>
+                                        
+                                        Introdução à teoria dos conjuntos. Relação entre teoria dos conjuntos e
+                                        banco de dados.</span><span class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-primary">15</span> <span
+                                            class="badge text-bg-primary">12/09/2022</span>
+                                         Introdução à teoria dos
+                                        conjuntos. Conjuntos e elementos. Conjunto universo e conjunto
+                                        vazio.</span><span class="badge text-bg-primary">ASSISTIDO</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">16</span> Relações entre conjuntos
+                                        (subconjuntos). Conjuntos de conjuntos (conjunto das partes).
+                                        Diagrama de Venn.</span><span class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">17</span>
+                                        Resolução de exercícios envolvendo conjuntos.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">18</span>
+                                        Operações binárias e unárias e operações em conjuntos.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">19</span>
+                                        Operações entre conjuntos. Princípio da enumeração.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">20</span>
+                                        Exercícios sobre operações entre conjuntos.
+                                    </span><span class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">21</span>
+                                        Atividade avaliativa do 1º bimestre. Lógica proposicional, Tabela-verdade,
+                                        Quantificadores, Teoria dos conjuntos.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">22</span>
+                                        Resolução da P1.</span><span class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">23</span>
+                                        Introdução a análise combinatória. Princípios básicos de contagem. Princípio
+                                        de inclusão e exclusão. Árvore de decisão. Permutação.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">24</span>
+                                        Arranjo simples. Permutações com repetição.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">25</span>
+                                        Combinações.</span><span class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">26</span>
+                                        Combinações com repetição.</span><span class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">27</span>
+                                        Resolução de exercícios envolvendo análise combinatória.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">28</span>
+                                        Introdução a relações e funções. Relações binárias. Classificação (um para
+                                        um, um para
+                                        muitos, muitos para um, muitos para muitos).</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">29</span>
+                                        Tipos de relações (reflexiva, simétrica, antissimétrica, transitiva).
+                                        Relações de
+                                        equivalência. Relações de ordem.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">30</span>
+                                        Definição de funções. Domínio, contradomínio e imagem de uma
+                                        função.</span><span class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">31</span>
+                                        Função injetora, sobrejetora e bijetora.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">32</span>
+                                        Exercícios envolvendo relações e funções.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">33</span>
+                                        Atividade avaliativa do 2º bimestre. Operações entre conjuntos. Análise
+                                        combinatória, Relações e Funções.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">34</span>
+                                        Resolução da P2.</span><span class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">35</span>
+                                        Bancas de Defesa dos Trabalhos de Graduação.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">36</span>
+                                        Assuntos abordados durante o semestre.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">37</span>
+                                        Atividade avaliativa de recuperação. Conteúdos abordados durante o
+                                        semestre.</span><span class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">38</span>
+                                        Resolução da P3.
+                                    </span><span class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">39</span>
+                                        Função composta. Função inversa.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span><span class="badge text-bg-secondary">40</span>
+                                        Funções e suas propriedades.</span><span
+                                        class="badge text-bg-secondary">AULA
+                                        FUTURA</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-avaliacoes" role="tabpanel" aria-labelledby="pills-avaliacoes-tab"
+        tabindex="0">
+        <div class="container my-1">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Avaliações</h3>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col-8">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Avaliar
+                                    os conhecimentos
+                                    em relação ao
+                                    conteúdo trabalhado em sala de aula<span class="badge text-bg-primary">P1</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Avaliação prática para
+                                    avaliar os
+                                    conhecimentos construídos<span class="badge text-bg-secondary">P2</span></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Recuperação da
+                                    aprendizagem<span class="badge text-bg-secondary">P3</span></li>
+                            </ul>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-extraclasse" role="tabpanel" aria-labelledby="pills-extraclasse-tab"
+        tabindex="0">
+        <div class="container my-1">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Atividades Extra-Classe</h3>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col-10">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"></li>
+                            </ul>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-material" role="tabpanel" aria-labelledby="pills-material-tab"
+        tabindex="0">
+        <div class="container my-1">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Material</h3>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col-6">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Apresentação da Disciplina <span class="badge text-bg-primary">PDF</span>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Introdução à Lógica <span class="badge text-bg-primary">PDF</span>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Introdução à Análise Combinatória <span class="badge text-bg-primary">PDF</span>
+                            </ul>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="pills-bibliografia" role="tabpanel" aria-labelledby="pills-bibliografia-tab"
+        tabindex="0">
+        <div class="container my-1">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Bibliografia</h3>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col-10">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Matemática Discreta <span><span class="badge text-bg-secondary">LIPSCHUTZ,
+                                            S.</span> <span class="badge text-bg-secondary">LIPSON, M.</span> <span
+                                            class="badge text-bg-primary">2004</span></span></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Fundamentos Matemáticos para a Ciência da Computação
+                                    <span><span class="badge text-bg-secondary">GERSTING, J. L.</span> <span
+                                            class="badge text-bg-primary">2004</span></span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Matemática Finita – Uma abordagem aplicada <span><span
+                                            class="badge text-bg-secondary">SULLIVAN, M.</span> <span
+                                            class="badge text-bg-secondary">MIZRAHI, A.</span> <span
+                                            class="badge text-bg-primary">2006</span></span></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Matemática Discreta: Uma Introdução <span><span
+                                            class="badge text-bg-secondary">SCHEINERMAN, E. R.</span> <span
+                                            class="badge text-bg-primary">2008</span></span></li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    Aprendendo Matemática Discreta com Exercícios <span><span
+                                            class="badge text-bg-secondary">LOPEZ, J. G.</span> <span
+                                            class="badge text-bg-secondary">TOSCANI, L. V.</span> <span
+                                            class="badge text-bg-secondary">MENEZES, P. B..</span> <span
+                                            class="badge text-bg-primary">2009</span></span></li>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
